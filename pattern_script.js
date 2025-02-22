@@ -132,7 +132,6 @@ function patern_savePattern() {
     const tempCanvas = document.createElement('canvas');
     const tempCtx = tempCanvas.getContext('2d');
     
-    // Mantém a proporção do DPR
     const dpr = window.devicePixelRatio || 1;
     tempCanvas.width = patern_state.canvas.width;
     tempCanvas.height = patern_state.canvas.height;
